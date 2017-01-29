@@ -1,0 +1,14 @@
+// Create an array 
+var birdsSpotted = [4,5,8,1,0,8,11];
+
+// Starting point - will be the end value
+var birdsTotal = 0;
+
+/* For loop created to add the numbers in the array 
+together and store the value as birdsTotal */
+for ( i=0; i < birdsSpotted.length; i++ ) {
+  birdsTotal = birdsTotal + birdsSpotted[i];
+}
+
+// Display the updated value of birdsTotal
+console.log("I've counted a total of " + birdsTotal + " birds!");
